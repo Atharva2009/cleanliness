@@ -51,7 +51,7 @@ function draw() {
 }
 
 function keyPressed(){
-if (keycode === 32){
+if (keyCode === 32){
 	Body.applyForce(paperObject.body,paperObbject.body.position,{x:85,y:-85})
 }
 
